@@ -1,0 +1,125 @@
+/* ==== Common Fix starts here==== */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* ==== Common Fix ends here==== */
+
+/* ===== First section starts here===== */
+.firstsection{
+    display: flex;
+    height: 460px;
+}
+.firstsection-leftdiv{
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.firstsection-leftdiv p{
+    margin-bottom: 25px;
+}
+.firstsection-rightdiv{
+    height: 100%;
+    width: 50%;
+     /* background: linear-gradient(rgba(244, 107, 69, 0.4), rgba(255, 99, 71, 0.4)), url(./images/image1.jpg); */
+    background:var(--linear-gradient), url(./images/image1.jpg);
+    background-size: cover;
+    background-position: bottom left;
+}
+.link-holder{
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    padding: 20px 0;
+}
+span{
+    color: var(--main-color);
+}
+.line{
+    height: 16px;
+    background-color: var(--main-color);
+    width: 224px;
+}
+.logo-text{
+    margin-bottom: 20px;
+}
+.heading{
+    margin-bottom: 20px;
+}
+/* ===== First section starts here===== */
+
+/* ===== Second section starts here===== */
+.secondsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.secondsection-leftdiv{
+    width: 310px;
+    height: 400px;
+    background-color: var(--gray-color);
+    padding: 40px 25px;
+}
+.secondsection-leftdiv p {
+    margin: 10px 0;
+}
+.secondsection-rightdiv{
+    height: 460px;
+    width: 340px;
+    margin-left: 20px;
+}
+/* ===== Second section ends here===== */
+
+/* ===== Third section starts here===== */
+.thirdsection{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 30px;
+max-width: 1500px;
+margin: 0 auto;
+}
+.thirdsection-leftdiv{
+    width: 350px; 
+    height:460px;
+    background: url(./images/image3.jpg);
+    background-size: cover;
+}
+.thirdsection-rightdiv{
+background-color: var(--main-color);
+width: 350px; 
+height:460px;
+padding: 30px 25px;
+}
+.thirdsection-rightdiv p{
+    margin: 10px 0;
+}
+/* ===== Third section starts here===== */
+
+/* ===== Footer section starts here===== */
+.footer{
+    background-color: var(--main-color);
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    margin-top: 20px;
+}
+.fotericon{
+    margin: 0 5px;
+}
+/* ===== Footer section ends here===== */
